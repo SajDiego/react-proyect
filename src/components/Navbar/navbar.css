@@ -1,0 +1,29 @@
+.cabecera{
+    background-color: rgb(59, 141, 171);
+    display: flex;
+    justify-content:space-between;
+    text-decoration: none;
+    color: rgb(180, 29, 185);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+ul{
+    justify-content: space-between;
+    list-style:none;
+    display: flex;
+}
+ul li a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(17, 11, 11);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cart{
+    color: black;
+    font-size: 0.6em;
+}
