@@ -1,0 +1,90 @@
+[
+    {
+      "id": 1,
+      "producto": "Placa madre Gigabyte A320 M",
+      "precio": 120,
+      "descripcion": "Placa madre para montaje de PC, modelo Gigabyte A320 M.",
+      "stock": 15,
+      "img": "/img/placa.jpg"
+    },
+    {
+      "id": 2,
+      "producto": "Monitor gamer Samsung",
+      "precio": 300,
+      "descripcion": "Monitor de alta frecuencia de actualización para gaming, marca Samsung.",
+      "stock": 8,
+      "img": "/img/monitor.jpeg"
+    },
+    {
+      "id": 3,
+      "producto": "Gabinete Asus",
+      "precio": 80,
+      "descripcion": "Gabinete de computadora, marca Asus.",
+      "stock": 20,
+      "img": "img/gabinete.jpg"
+    },
+    {
+      "id": 4,
+      "producto": "Placa de video 1050 Ti",
+      "precio": 200,
+      "descripcion": "Tarjeta gráfica modelo 1050 Ti para mejorar rendimiento visual en juegos y diseño.",
+      "stock": 12,
+      "img": "/img/tarjeta.jpg"
+    },
+    {
+      "id": 5,
+      "producto": "Procesador Core i5 9na generación",
+      "precio": 250,
+      "descripcion": "Procesador Intel Core i5 de novena generación para computadoras de alto rendimiento.",
+      "stock": 10,
+      "img": "/img/procesador.jpeg"
+    },
+    {
+      "id": 6,
+      "producto": "Cable HDMI 1 metro",
+      "precio": 10,
+      "descripcion": "Cable HDMI de un metro de longitud para conexión de dispositivos de audio y video.",
+      "stock": 30,
+      "img": "/img/hdmi.jpg"
+    },
+    {
+      "id": 7,
+      "producto": "Fuente de alimentación 750W",
+      "precio": 100,
+      "descripcion": "Fuente de alimentación con capacidad de 750W para sistemas de alto rendimiento.",
+      "stock": 18,
+      "img": "/img/fuente.jpg"
+    },
+    {
+      "id": 8,
+      "producto": "Procesador AMD 7",
+      "precio": 280,
+      "descripcion": "Procesador AMD de alto rendimiento, serie 7.",
+      "stock": 9,
+      "img": "7img/procesadorAMD.jpg"
+    },
+    {
+      "id": 9,
+      "producto": "Placa de video GTX Force 1660",
+      "precio": 350,
+      "descripcion": "Tarjeta gráfica GTX Force 1660 para gaming y aplicaciones intensivas.",
+      "stock": 14,
+      "img": "/img/grafica.jpeg"
+    },
+    {
+      "id": 10,
+      "producto": "Teclado gamer Redragon",
+      "precio": 50,
+      "descripcion": "Teclado diseñado para gaming, marca Redragon.",
+      "stock": 25,
+      "img": "/img/teclado.jpeg"
+    },
+    {
+      "id": 11,
+      "producto": "Mouse Logitech",
+      "precio": 30,
+      "descripcion": "Mouse de alta precisión para computadoras, marca Logitech.",
+      "stock": 22,
+      "img": "/img/mouse.jpg"
+    }
+  ]
