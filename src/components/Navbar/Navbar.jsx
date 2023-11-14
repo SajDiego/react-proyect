@@ -8,7 +8,7 @@ const Navbar = () => {
          <nav className="cabecera">
             <h1 className="titulo">Mundo PC</h1>
             <ul>
-                <li><a href="#">Placad de Videos</a></li>
+                <li><a href="#">Placas de Videos</a></li>
                 <li><a href="#">Procesadores</a></li>
                 <li><a href="#">Gabinetes</a></li>
                 <li><a href="#">Contacto</a></li>
