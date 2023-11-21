@@ -1,14 +1,20 @@
 import React from 'react';
+import ItemCount from '../ItemCount/ItemCount';
 
 const Item = ({product}) => {
+    const onAdd =(cantidad)=>{
+        console.log(cantidad)
+    }
     return (
-        <div>
+        <><div>
             <img src={product.img} alt="" />
             <h2>{product.producto}</h2>
             <p>Precio:{product.precio}</p>
             <p>Stock:{product.stock}</p>
             <p>Descripcion:{product.descripcion}</p>
-        </div>
+          </div>
+           <ItemCount inicial = {1} stock={product.stock} onAdd={onAdd}/>
+          </>
     );
 };
 
