@@ -1,9 +1,11 @@
 import React, {useState, useEffect} from 'react';
 import ItemList from '../ItemList/ItemList';
+import { useParams } from 'react-router-dom';
 
 
 const ItemListContainer = () => {
     const [productos, setProductos] = useState ([]);
+    const {categoryId} = useParams ()
     useEffect (()=>{
         const fetchData= () => {
             return fetch("/data/lista.json")

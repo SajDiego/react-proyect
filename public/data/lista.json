@@ -5,6 +5,7 @@
     "precio": 120,
     "descripcion": "Placa madre para montaje de PC, modelo Gigabyte A320 M.",
     "stock": 15,
+    "categoria": "placas",
     "img": "/img/placa.jpg"
   },
   {
@@ -13,6 +14,7 @@
     "precio": 300,
     "descripcion": "Monitor de alta frecuencia de actualización para gaming, marca Samsung.",
     "stock": 8,
+    "categoria": "monitor",
     "img": "/img/monitor.jpeg"
   },
   {
@@ -21,6 +23,7 @@
     "precio": 80,
     "descripcion": "Gabinete de computadora, marca Asus.",
     "stock": 20,
+    "categoria": "gabinetes",
     "img": "img/gabinete.jpg"
   },
   {
@@ -29,6 +32,7 @@
     "precio": 200,
     "descripcion": "Tarjeta gráfica modelo 1050 Ti para mejorar rendimiento visual en juegos y diseño.",
     "stock": 12,
+    "categoria": "graficas",
     "img": "/img/tarjeta.jpg"
   },
   {
@@ -37,6 +41,7 @@
     "precio": 250,
     "descripcion": "Procesador Intel Core i5 de novena generación para computadoras de alto rendimiento.",
     "stock": 10,
+    "categoria": "procesadores",
     "img": "/img/procesadorAMD.jpg"
   },
   {
@@ -45,6 +50,7 @@
     "precio": 10,
     "descripcion": "Cable HDMI de un metro de longitud para conexión de dispositivos de audio y video.",
     "stock": 30,
+    "categoria": "accesorios",
     "img": "/img/hdmi.jpg"
   },
   {
@@ -53,6 +59,7 @@
     "precio": 100,
     "descripcion": "Fuente de alimentación con capacidad de 750W para sistemas de alto rendimiento.",
     "stock": 18,
+    "categoria": "accesorios",
     "img": "/img/fuente.jpg"
   },
   {
@@ -61,6 +68,7 @@
     "precio": 280,
     "descripcion": "Procesador AMD de alto rendimiento, serie 7.",
     "stock": 9,
+    "categoria": "procesadores",
     "img": "img/procesador.jpeg"
   },
   {
@@ -69,6 +77,7 @@
     "precio": 350,
     "descripcion": "Tarjeta gráfica GTX Force 1660 para gaming y aplicaciones intensivas.",
     "stock": 14,
+    "categoria": "graficas",
     "img": "/img/grafica.jpeg"
   },
   {
@@ -77,6 +86,7 @@
     "precio": 50,
     "descripcion": "Teclado diseñado para gaming, marca Redragon.",
     "stock": 25,
+    "categoria": "accesorios",
     "img": "/img/teclado.jpeg"
   },
   {
@@ -85,6 +95,7 @@
     "precio": 30,
     "descripcion": "Mouse de alta precisión para computadoras, marca Logitech.",
     "stock": 22,
+    "categoria": "accesorios",
     "img": "/img/mouse.jpg"
   }
 ]

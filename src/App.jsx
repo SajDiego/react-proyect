@@ -13,7 +13,16 @@ function App () {
   return(
     <>
      <Navbar/>
-     <ItemListContainer/>
+
+     <BrowserRouter>
+     <Routes>
+      <Route path='/' element={<ItemListContainer/>}/>
+      <Route path='/categoryId' element={<ItemListContainer/>}/>
+      <Route path='/item/:idProduct' element={<Detail/>}/>
+  
+     </Routes>
+     </BrowserRouter>
+
      <Detail ProductId={10}/>
     </>
     )
