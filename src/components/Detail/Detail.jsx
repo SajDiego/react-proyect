@@ -19,7 +19,7 @@ const Detail = ({ProductId}) => {
         fetchData()
     },[idProduct])
     return (
-        <div>
+        <>
            {product ? 
            <div>
            <img src={product.img} alt=""/>
@@ -29,7 +29,7 @@ const Detail = ({ProductId}) => {
            </div>
         : <p>cargando</p>
            }
-        </div>
+        </>
     );
 };
 

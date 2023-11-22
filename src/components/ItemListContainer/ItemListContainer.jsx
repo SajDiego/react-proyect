@@ -11,12 +11,18 @@ const ItemListContainer = () => {
             return fetch("/data/lista.json")
             .then((response)=>response.json())
             .then((data)=>{
-                setProductos(data)
+                if(categoryId){
+                    const filtroproductos = data.filter(p=>p.categoria == categoryId)
+                    setProductos(filtroproductos)
+                }else{
+                    setProductos(data)
+                }
+                
             })
             .catch ((error)=> console.log(error))
         }
         fetchData()
-    },[])
+    },[categoryId])
 
     return (
         <>
