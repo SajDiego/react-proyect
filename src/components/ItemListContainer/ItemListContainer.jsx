@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import ItemList from '../ItemList/ItemList';
 import { useParams } from 'react-router-dom';
+import Detail from '../Detail/Detail';
+import ItemCount from '../ItemCount/ItemCount';
 
 
 const ItemListContainer = () => {
@@ -27,7 +29,7 @@ const ItemListContainer = () => {
     return (
         <>
         {productos.length == 0 ?
-        <h2>Buscando Productos</h2> 
+        <h2>Buscando</h2>
         :
         <ItemList productos={productos}/>}
 

@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom';
 
-const Detail = ({ProductId}) => {
+
+const Detail = () => {
     const [product, setProduct] = useState ()
     const {idProduct} = useParams ()
 
@@ -10,8 +11,8 @@ const Detail = ({ProductId}) => {
             return fetch("/data/lista.json")
             .then((response)=>response.json())
             .then((data)=> {
-                const foundProduct = data.find((item)=> item.id == idProduct) 
-                setProduct(foundProduct)
+                const found = data.find((item)=> item.id == idProduct) 
+                setProduct(found)
             })
             .catch((error)=>console.log(error))
         }
